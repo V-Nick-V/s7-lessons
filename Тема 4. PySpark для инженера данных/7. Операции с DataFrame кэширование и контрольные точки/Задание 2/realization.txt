@@ -1,0 +1,12 @@
+== Physical Plan ==
+*(5) Project [title#132]
++- SortMergeJoin [book_id#134L], [book_id#138L], LeftAnti
+   :- *(2) Sort [book_id#134L ASC NULLS FIRST], false, 0
+   :  +- Exchange hashpartitioning(book_id#134L, 200), true, [id=#220]
+   :     +- *(1) Project [title#132, book_id#134L]
+   :        +- *(1) Scan ExistingRDD[title#132,author#133,book_id#134L]
+   +- *(4) Sort [book_id#138L ASC NULLS FIRST], false, 0
+      +- Exchange hashpartitioning(book_id#138L, 200), true, [id=#225]
+         +- *(3) Project [book_id#138L]
+            +- *(3) Filter isnotnull(book_id#138L)
+               +- *(3) Scan ExistingRDD[book_id#138L,Library_id#139]

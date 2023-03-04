@@ -1,0 +1,9 @@
+[Row(book_id=299, title='Bad Girls', author='Jacqueline Wilson', Library_id=None),
+ Row(book_id=174, title='Catch-22', author='Joseph Heller', Library_id=None),
+ Row(book_id=168, title='The Catcher in the Rye', author='J. D. Salinger', Library_id=None),
+ Row(book_id=382, title='Nineteen Eighty-Four', author='George Orwell', Library_id='2'),
+ Row(book_id=322, title='Harry Potter and the Goblet of Fire', author='J. K. Rowling', Library_id='1'),
+ Row(book_id=322, title='Harry Potter and the Goblet of Fire', author='J. K. Rowling', Library_id='1'),
+ Row(book_id=159, title='Jane Eyre', author='Charlotte Brontë', Library_id='1'),
+ Row(book_id=300, title='The Mayor of Casterbridge', author='Thomas Hardy', Library_id=None),
+ Row(book_id=259, title='The Wind in the Willows', author='Kenneth Grahame', Library_id=None)]

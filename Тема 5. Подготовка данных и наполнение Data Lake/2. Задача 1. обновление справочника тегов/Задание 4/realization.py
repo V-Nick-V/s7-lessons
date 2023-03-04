@@ -1,0 +1,1 @@
+/usr/lib/spark/bin/spark-submit --master yarn --deploy-mode cluster verified_tags_candidates.py 2022-05-31 5 300 /user/nickperegr/data/events /user/master/data/snapshots/tags_verified/actual /user/nickperegr/data/analytics/verified_tags_candidates_d5
